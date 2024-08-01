@@ -1,33 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&family=Shrikhand&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.bg-supporters {
+    background-size: 100% 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.swiper-button-lock {
+    display: block !important;
+}
+.bg-size-100{
+    background-size: 100% 100%;
+}
+.swiper-pagination-bullet-active {
+    background-color: #FD0786 !important;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.swiper-pagination-bullet {
+    height: 16px !important;
+    width: 16px !important;
+    margin: 0px 5px !important;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@media (max-width:576px) {
+    .swiper-pagination-bullet {
+        height: 12px !important;
+        width: 12px !important;
+    }
 }
