@@ -11,7 +11,6 @@ import WhatMagicFoam from "@/components/WhatMagicFoam";
 
 export default function Home() {
   return (
-
     <div className="max-w-[1920px] overflow-hidden mx-auto">
       <Header />
       <ViralTiktok />

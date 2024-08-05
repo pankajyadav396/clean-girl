@@ -26,10 +26,10 @@ const MagicFoamClean: React.FC = (): JSX.Element => {
                         height={581}
                         className='block 915:hidden sm:max-w-[300px] md:max-w-[340px] max-w-[236px] min-h-[300px] mx-auto'
                     />
-                    <div className="relative z-[10] max-w-[194px] sm:max-w-[240px] 915:mx-auto">
-                        <div className='absolute w-[190px] sm:w-[210px] md:w-[230px] bg-sky-blue -left-[1px] top-[-1px] 915:top-1 z-[-1] rounded-5xl h-[26px] sm:h-8 '></div>
-                        <div className='absolute w-[190px] sm:w-[210px] md:w-[230px] bg-navy-red 915:hidden -bottom-[1px] -right-[1px] z-[-1] rounded-5xl h-[26px] sm:h-8 '></div>
-                        <div className="bg-black relative z-[10] flex px-3 items-center max-w-[240px] mx-auto rounded-full py-1.5 sm:py-2.5 gap-2">
+                    <div className="relative z-[10] h-6 sm:h-8 md:h-10 max-w-[194px] sm:max-w-[240px] 915:mx-auto">
+                        <div className='absolute h-6 sm:h-8 md:h-10 w-[190px] sm:w-[210px] md:w-[230px] bg-sky-blue -left-[1px] top-[-1px] 915:top-1 z-[-1] rounded-5xl '></div>
+                        <div className='absolute h-6 sm:h-8 md:h-10 w-[190px] sm:w-[210px] md:w-[230px] bg-navy-red 915:hidden -bottom-[1px] -right-[1px] z-[-1] rounded-5xl '></div>
+                        <div className="bg-black h-6 sm:h-8 md:h-10 relative z-[10] flex px-3 items-center max-w-[240px] mx-auto rounded-full py-1.5 sm:py-2.5 gap-2">
                             <TiktokIcon />
                             <p className='text-white font-semibold text-nowrap text-xxs sm:text-sm font-lexend leading-145'>
                                 Viral TikTok Cleaning Spray
@@ -68,27 +68,27 @@ const MagicFoamClean: React.FC = (): JSX.Element => {
                             />
                         </div>
                         <div className='915:w-1/2 md:w-8/12 sm:w-10/12 w-full lg:w-[49%] flex flex-col items-center justify-center'>
-                            <div className='max-sm:max-w-[425px] w-full bg-navy-pink rounded-2xl p-6 pb-[30px] flex flex-col'>
-                                <p className='text-navy-blue font-semibold text-xl font-lexend !leading-125'>
+                            <div className='max-sm:max-w-[425px] w-full bg-navy-pink rounded-2xl px-5 md:p-6 pb-5 sm:pb-6 max-md:pt-4 max-sm:pt-2.5 md:pb-[30px] flex flex-col'>
+                                <p className='text-navy-blue text-xsm sm:text-base font-semibold md:text-xl font-lexend !leading-125'>
                                     Next batch ships Mar 14
                                 </p>
-                                <div className="sm:flex hidden gap-[5px] mt-5">
+                                <div className="flex gap-[5px] mt-4 md:mt-5">
                                     <span className='max-sm:size-3'>
                                         <BlueStars />
                                     </span>
-                                    <p className='text-navy-blue text-base font-normal font-lexend !leading-125'>
+                                    <p className='text-navy-blue text-2xxs 576:text-sm sm:text-base font-normal font-lexend !leading-125'>
                                         Pre-order your Clean Girl Magic Foam before it sells out again!
                                     </p>
                                 </div>
-                                <div className="sm:flex hidden gap-[5px] mt-4">
+                                <div className="flex gap-[5px] sm:mt-4 mt-2">
                                     <span className='max-sm:size-3'>
                                         <BlueStars />
                                     </span>
-                                    <p className='text-navy-blue text-base font-normal font-lexend !leading-125'>
+                                    <p className='text-navy-blue text-2xxs 576:text-sm sm:text-base font-normal font-lexend !leading-125'>
                                         $5 off all Pre-Orders
                                     </p>
                                 </div>
-                                <div className='bg-white rounded-full mt-6 flex justify-between w-full py-2.5 sm:py-4 md:py-[18px] text-grey-dark px-5 md:px-6 text-sm sm:text-base leading-125 font-normal font-lexend'>
+                                <div className='bg-white max-sm:h-[38px] rounded-full mt-[18px] md:mt-6 flex justify-between w-full py-2.5 sm:py-4 md:py-[18px] text-grey-dark px-5 md:px-6 text-sm sm:text-base leading-125 font-normal font-lexend'>
                                     <p>
                                         February 29
                                     </p>
@@ -96,7 +96,7 @@ const MagicFoamClean: React.FC = (): JSX.Element => {
                                         Sold Out
                                     </p>
                                 </div>
-                                <div className='bg-transparent overflow-hidden outline outline-2 outline-navy-blue  relative z-[1] rounded-full mt-2.5 sm:mt-4 flex justify-between w-full py-2.5 sm:py-4 md:py-[18px] text-white px-5 md:px-6 text-sm sm:text-base leading-125 font-normal font-lexend'>
+                                <div className='bg-transparent max-sm:h-[38px] overflow-hidden outline outline-2 outline-navy-blue  relative z-[1] rounded-full mt-2.5 sm:mt-4 flex justify-between w-full py-2.5 sm:py-4 md:py-[18px] text-white px-5 md:px-6 text-sm sm:text-base leading-125 font-normal font-lexend'>
                                     <Image
                                         src={pinklayer}
                                         alt='clean girl img'
@@ -111,7 +111,7 @@ const MagicFoamClean: React.FC = (): JSX.Element => {
                                         Only 13% Left!
                                     </p>
                                 </div>
-                                <div className='bg-white rounded-full mt-2.5 sm:mt-4 flex justify-between w-full py-2.5 sm:py-4 md:py-[18px] text-grey-dark px-5 md:px-6 text-sm sm:text-base leading-125 font-normal font-lexend'>
+                                <div className='bg-white max-sm:h-[38px] rounded-full mt-2.5 sm:mt-4 flex justify-between w-full py-2.5 sm:py-4 md:py-[18px] text-grey-dark px-5 md:px-6 text-sm sm:text-base leading-125 font-normal font-lexend'>
                                     <p>
                                         March 31
                                     </p>
@@ -142,7 +142,7 @@ const MagicFoamClean: React.FC = (): JSX.Element => {
                     alt='layer-bottom-ellipse'
                     width={1440}
                     height={187}
-                    className='-rotate-180 w-full hidden md:block absolute xl:h-[187px] lg:h-[140px] md:h-24 left-0 md:-translate-y-6 lg:-translate-y-10'
+                    className='-rotate-180 w-full max-w-[1920px] mx-auto hidden md:block absolute xl:h-[187px] lg:h-[140px] md:h-24 md:-translate-y-6 lg:-translate-y-10'
                 />
             </div>
         </>

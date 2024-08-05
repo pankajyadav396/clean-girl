@@ -7,7 +7,7 @@ import { Heart_Felt_List } from './common/Helper';
 
 const HeartFeltCleaning: React.FC = (): JSX.Element => {
     return (
-        <div className='max-sm:bg-light-pink'>
+        <div className='max-md:bg-light-pink'>
             <h2 className='px-4 font-Shrikhand font-normal mb-3 sm:mb-4 text-2xxl md:text-3xl text-center lg:text-4xl xl:text-4xxl !leading-145 text-pink'>
                 Heartfelt Cleaning
             </h2>

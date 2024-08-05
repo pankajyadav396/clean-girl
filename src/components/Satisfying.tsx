@@ -12,7 +12,7 @@ import { Satisfy_List } from './common/Helper';
 
 const Satisfying: React.FC = (): JSX.Element => {
     return (
-        <div className='xl:py-[150px] max-sm:bg-light-pink bg-white py-12 lg:py-24 md:py-20 sm:py-16'>
+        <div className='xl:py-[150px] max-md:bg-light-pink bg-white py-12 lg:py-24 md:py-20 sm:py-16'>
             <div className="mx-auto px-4 max-w-[1172px]">
                 <div className="flex flex-row flex-wrap items-center justify-center w-full">
                     <div className="md:w-1/2">

@@ -10,6 +10,8 @@ const config: Config = {
       colors: {
         "light-pink": "#FFF3F9",
         "navy-pink": "#FFB9D4",
+        "old-pink": "#FFAFCD",
+        "grey-white": "#FFDAE8",
         "navy-red": "#FF004F",
         "pink": "#FD0786",
         "dark-pink": "#B3618C",
@@ -17,12 +19,14 @@ const config: Config = {
         "sky-blue": "#00F2EA",
         "grey": "#797979",
         "grey-dark": "#999999",
+        "white-light": "#F5F5F5",
+        "sermon-pink": "#FFCDE7",
       },
 
       fontFamily: {
         "Shrikhand": "Shrikhand",
         "lexend": "Lexend Deca",
-        "jost":"jost"
+        "jost": "jost"
       },
       fontSize: {
         "8xl": "80px",
@@ -31,7 +35,8 @@ const config: Config = {
         "2lg": "22px",
         "4xxl": "40px",
         "xxs": "11.2px",
-        "xsm":"15px",
+        "2xxs": "11px",
+        "xsm": "15px",
       },
       lineHeight: {
         "125": "125%",
@@ -46,7 +51,9 @@ const config: Config = {
       },
       borderRadius: {
         "5xl": "50px",
-        "xxl": "13.54px"
+        "xxl": "13.54px",
+        "7": '7px',
+        "5": '5px',
       },
       boxShadow: {
         "grey-pink": "0px 0px 0px 6px #FD07864D",

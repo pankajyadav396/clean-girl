@@ -7,6 +7,7 @@ import bluecircle from "../../public/assets/images/svg/blue-circle.svg";
 import logo from "../../public/assets/images/svg/logo.svg";
 import PrimaryButton from './common/PrimaryButton';
 import { BlueStars, CartIcon } from './common/Icons';
+import Link from 'next/link';
 
 const Header: React.FC = () => {
     return (
@@ -30,9 +31,11 @@ const Header: React.FC = () => {
                                     src={bluecircle}
                                     alt="blue circle 13% left"
                                     className='max-sm:size-3'
-                                    width={14.8} height={14.8} />
+                                    width={14.8}
+                                    height={14.8}
+                                />
                             </span>
-                            <p className='!leading-125  text-nowrap text-xxs sm:text-sm font-semibold font-lexend text-navy-blue inline-block'>
+                            <p className='!leading-125 text-nowrap text-xxs sm:text-sm font-semibold font-lexend text-navy-blue inline-block'>
                                 Only 13% Left
                             </p>
                         </div>
@@ -40,17 +43,21 @@ const Header: React.FC = () => {
                 </div>
             </div>
             <div className='bg-white py-2.5'>
-                <div className="mx-auto  max-w-[420px] sm:max-w-[1172px] px-4">
+                <div className="mx-auto max-w-[420px] sm:max-w-[1172px] px-4">
                     <div className="flex justify-between">
-                        <a href="/">
+                        <Link href="/">
                             <Image
                                 src={logo}
                                 className='size-11 sm:size-12 md:size-[60px]'
                                 alt='logo img'
-                                width={59} height={60} />
-                        </a>
+                                width={59}
+                                height={60}
+                            />
+                        </Link>
                         <div className="flex gap-5 sm:gap-6 items-center">
-                            <PrimaryButton className='max-sm:py-2 max-sm:px-2.5 max-sm:text-xs' text='Pre-Order' />
+                            <Link href="/cart">
+                                <PrimaryButton className='max-sm:py-2 hover:shadow-grey-pink duration-300 max-sm:px-2.5 max-sm:text-xs' text='Pre-Order' />
+                            </Link>
                             <span>
                                 <CartIcon />
                             </span>
@@ -84,9 +91,10 @@ const Header: React.FC = () => {
                         <Image
                             src={girlImg}
                             alt="Clean Girl Product"
-                            layout="responsive"
                             className='max-w-[127px] md:max-w-[270px] sm:max-w-[200px] lg:max-w-[350px] xl:max-w-[433.39px]'
-                            width={500} height={500} />
+                            width={500}
+                            height={500}
+                        />
                     </div>
                 </div>
                 <div className='block sm:hidden max-w-[400px] mx-auto mt-9'>

@@ -10,6 +10,11 @@ import mcdonald from "../../../public/assets/images/webp/mcdonalds-bathroom.png"
 import airplane from "../../../public/assets/images/webp/airplane-bathroom.png"
 import veteran from "../../../public/assets/images/webp/veterian-grave.png"
 import your from "../../../public/assets/images/webp/your-house.png"
+import espaid2 from "../../../public/assets/images/webp/espaid-2.png"
+import mcdonald2 from "../../../public/assets/images/webp/mcdonald-bathroom-2.png"
+import airplane2 from "../../../public/assets/images/webp/airplane-bathroom-smalll.png"
+import veteran2 from "../../../public/assets/images/webp/veteran-grave-2.png"
+import your2 from "../../../public/assets/images/webp/your-huse-2.png"
 import { GreenTick } from "./Icons";
 
 interface EasyFunItem {
@@ -86,30 +91,35 @@ export const What_Can_Magic_List = [
     {
         title: "Abandoned Grave:",
         alt: "espaid restrrom img",
+        img2: espaid2,
         img: espaid,
         icon: <GreenTick />
     },
     {
         title: "McDonald’s Restroom:",
         alt: "mcdonald rrombath img",
+        img2: mcdonald2,
         img: mcdonald,
         icon: <GreenTick />
     },
     {
         title: "Airplane Bathroom:",
         alt: 'airplane room img',
+        img2: airplane2,
         img: airplane,
         icon: <GreenTick />
     },
     {
         title: "Veteran’s Grave:",
         alt: "veteran grave img",
+        img2: veteran2,
         img: veteran,
         icon: <GreenTick />
     },
     {
         title: "Your House:",
         alt: "your house have",
+        img2: your2,
         img: your,
         icon: <GreenTick />
     },
